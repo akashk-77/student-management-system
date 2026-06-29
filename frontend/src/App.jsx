@@ -2,7 +2,7 @@ import { useState, useEffect } from 'react';
 import axios from 'axios';
 import { Plus, Edit2, Trash2, Search } from 'lucide-react';
 
-const API_URL = 'http://127.0.0.1:8000';
+const API_URL = 'https://student-management-api-m7ch.onrender.com';
 
 function App() {
   const [students, setStudents] = useState([]);
